@@ -1,0 +1,27 @@
+{
+  "name": "reposhow",
+  "version": "1.0.0",
+  "description": "GitHub project introduction video made with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "dev": "remotion studio",
+    "web": "vite",
+    "build": "remotion render",
+    "render": "remotion render GithubIntro out/reposhow.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/player": "^4.0.452",
+    "@vitejs/plugin-react": "^6.0.1",
+    "axios": "^1.15.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "^4.0.0",
+    "vite": "^8.0.10"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
